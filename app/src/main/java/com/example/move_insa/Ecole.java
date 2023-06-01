@@ -12,7 +12,7 @@ public class Ecole {
 
     private String adresse;
 
-}
+
 
     public Ecole(){}
 
@@ -21,4 +21,4 @@ public class Ecole {
         this.ville = ville;
         this.nomécole=nomécole;
         this.adresse=adresse;
-    }
+}

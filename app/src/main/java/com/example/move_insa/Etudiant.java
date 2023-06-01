@@ -10,4 +10,14 @@ public class Etudiant {
 
     private String Classe;
 
+    private String voeux1;
+
+    private String voeux2;
+
+    private String voeux3;
+
+    private String voeux4;
+
+    private String voeux5;
+
 }
