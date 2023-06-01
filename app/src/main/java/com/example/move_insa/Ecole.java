@@ -8,17 +8,21 @@ public class Ecole {
 
     private String ville;
 
-    private String nomecole;
+    private String ecole;
 
     private String adresse;
 
 
 
-    public Ecole(String nomecole, String ville, String adresse, String pays){
-        this.nomecole = nomecole;
+    public Ecole(String ecole, String ville, String pays, String adresse){
+        this.ecole = ecole;
         this.ville = ville;
         this.pays = pays;
         this.adresse = adresse;
+    }
+
+    public Ecole() {
+
     }
 
     public int getId() {
@@ -29,11 +33,11 @@ public class Ecole {
         this.id = id;
     }
 
-    public void setNomecole(String nomecole) {
-        this.nomecole = nomecole;
+    public void setEcole(String ecole) {
+        this.ecole = ecole;
     }
-    public String getNomecole() {
-        return nomecole;
+    public String getEcole() {
+        return ecole;
     }
 
 
@@ -61,9 +65,9 @@ public class Ecole {
 
     @Override
     public String toString() {
-        return "Partenaire{" +
+        return "Ecole{" +
                 "id=" + id +
-                ", ecole='" + nomecole + '\'' +
+                ", ecole='" + ecole + '\'' +
                 ", ville='" + ville + '\'' +
                 ", adresse='" + adresse + '\'' +
                 ", pays='" + pays + '\'' +
