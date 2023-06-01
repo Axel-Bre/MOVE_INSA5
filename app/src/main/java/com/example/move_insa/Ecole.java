@@ -8,17 +8,65 @@ public class Ecole {
 
     private String ville;
 
-    private String nomécole;
+    private String nomecole;
 
     private String adresse;
 
-}
 
-    public Ecole(){}
 
-    public Ecole(String pays, String ville, String nomécole, String adresse, String nbplacedispo){
-        this.pays = pays;
+    public Ecole(String nomecole, String ville, String adresse, String pays){
+        this.nomecole = nomecole;
         this.ville = ville;
-        this.nomécole=nomécole;
-        this.adresse=adresse;
+        this.pays = pays;
+        this.adresse = adresse;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setNomecole(String nomecole) {
+        this.nomecole = nomecole;
+    }
+    public String getNomecole() {
+        return nomecole;
+    }
+
+
+    public String getVille() {
+        return ville;
+    }
+
+    public void setVille(String ville) {
+        this.ville = ville;
+    }
+    public String getPays() {
+        return pays;
+    }
+    public void setPays(String pays) {
+        this.pays = pays;
+    }
+
+    public void setAdresse(String adresse){
+        this.adresse = adresse;
+    }
+
+    public String getAdresse(){
+        return adresse;
+    }
+
+    @Override
+    public String toString() {
+        return "Partenaire{" +
+                "id=" + id +
+                ", ecole='" + nomecole + '\'' +
+                ", ville='" + ville + '\'' +
+                ", adresse='" + adresse + '\'' +
+                ", pays='" + pays + '\'' +
+                '}';
+    }
+}
