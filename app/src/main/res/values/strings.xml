@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MOVE_INSA</string>
+    <string name="app_name">MOVE INSA</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -9,4 +9,48 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- Page Principale -->
+    <string name="search">Rechercher</string>
+    <string name="offre">Offre :</string>
+    <string name="nom_ecole">Nom de l'école</string>
+    <string name="pays">Pays</string>
+    <string name="fav">Favoris :</string>
+    <string name="details">Voir plus</string>
+
+    <!-- Page d'identification -->
+    <string name="adresse_mail">Adresse mail</string>
+    <string name="mdp">Mot de passe</string>
+
+    <!-- Page d'offre -->
+    <string name="nameex">Hochschule Offenburg – Hochschule für Technik, Wirtschaft und Medien</string>
+    <string name="paysex">Allemagne</string>
+    <string name="ville">Ville : </string>
+    <string name="villeex">Offenburg</string>
+    <string name="semestre">Semestre :</string>
+    <string name="semestreex">2</string>
+    <string name="filiere">Filière :</string>
+    <string name="filiereex">Génie Mécanique</string>
+    <string name="type">Type d'accord :</string>
+    <string name="typeex">Erasmus</string>
+    <string name="descrip">Description de l'offre :</string>
+    <string name="address">Adresse de l'École :</string>
+    <string name="addressex">Badstraße 24, 77652 Offenburg, Allemagne</string>
+    <string name="site_intern">Site internet :</string>
+    <string name="site_internex">https://www.hs-offenburg.de</string>
+    <string name="post">Postuler</string>
+    <string name="add">Ajouter au favoris</string>
+
+    <!-- Page d'identification -->
+    <string name="app_name">MoveINSA</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
 </resources>
